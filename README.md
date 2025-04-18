@@ -18,15 +18,15 @@ SonarQube (Docker container)
 ## Usage
 Clone this repository to your local machine:
 
-git clone https://github.com/EddyAchie1/nexus-sonar-jenkins-install/
+'''git clone https://github.com/EddyAchie1/nexus-sonar-jenkins-install/'''
 
 Navigate to the directory containing the script:
 
-cd your-repo
+'cd your-repo'
 
 Execute the script:
 
-sudo bash install_tools.sh
+'sudo bash install_tools.sh'
 
 After installation, ensure that the default ports for the tools are allowed under the inbound rules of your EC2 instance:
 
