@@ -7,7 +7,8 @@ This script automates the installation of Jenkins, Nexus, and SonarQube on a sin
 Instance Type: T2 or T3 Large
 Storage: 30GB root volume
 Operating System: Ubuntu
-Screenshot 
+
+![Screenshot 2025-04-18](https://github.com/EddyAchie1/nexus-sonar-jenkins-install/blob/main/D509BE5D-97E4-4FAC-A489-76802DC00FA5.jpeg)
 
 ## Tools Installed
 Jenkins
@@ -34,7 +35,8 @@ After installation, ensure that the default ports for the tools are allowed unde
 **Nexus:** Port 8081
 **SonarQube:** Port 9000
 **SSH:** Port 22
-Screenshot 
+
+![Screenshot 2025-04-18](https://github.com/EddyAchie1/nexus-sonar-jenkins-install/blob/main/96AD7631-9C78-4A20-BEA3-C6ADB406523F.jpeg)
 
 ## Important Note
 Containers will stop whenever the instance is stopped. You can use the start_containers.sh script provided in this repository to start both containers again when you start your instance.
