@@ -32,8 +32,11 @@ Execute the script:
 After installation, ensure that the default ports for the tools are allowed under the inbound rules of your EC2 instance:
 
 **Jenkins:** Port 8080
+
 **Nexus:** Port 8081
+
 **SonarQube:** Port 9000
+
 **SSH:** Port 22
 
 ![Screenshot 2025-04-18](https://github.com/EddyAchie1/nexus-sonar-jenkins-install/blob/main/96AD7631-9C78-4A20-BEA3-C6ADB406523F.jpeg)
@@ -54,7 +57,9 @@ Try again
 After the installation is complete, you can access the following URLs to use the newly installed tools:
 
 **Jenkins:** http://your-ec2-instance-ip:8080
+
 **Nexus:** http://your-ec2-instance-ip:8081
+
 **SonarQube:** http://your-ec2-instance-ip:9000
 
 ## License
