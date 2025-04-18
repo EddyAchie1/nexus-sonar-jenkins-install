@@ -1,6 +1,6 @@
-Jenkins, Nexus, and SonarQube Installation Script
+#Jenkins, Nexus, and SonarQube Installation Script
 
-Introduction
+#Introduction
 This script automates the installation of Jenkins, Nexus, and SonarQube on a single EC2 instance. It is designed to save costs on AWS by consolidating multiple tools onto one server for practicing building CI/CD pipelines with Jenkins.
 
 System Requirements
